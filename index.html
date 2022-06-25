@@ -1,87 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=!, initial-scale=1.0">
-    <link href="./pruebas.css" rel="stylesheet" >
-    <meta charset="FullStack">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
 </head>
+
 <body>
-    <h1 id="first_ID" > Diplomado FullStack</h1>
-    <h2 class="first_class"> Dirigido a: </h2>
-    <div style="top: auto;
-    height: auto;
-    width: auto;
-    left: auto;
-    background: #3f719d;
-    margin: 39px;
-    padding: 35px">
-    
+    <header>
+        <!-- Example Code -->
+
+        <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Full Stack Diplomado</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">GIT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HMTL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CSS</a>
+                            </li>
 
 
-    <p class="second_class">todas aquellas personas interesadas en el ámbito TIC con conocimientos previos en
-        desarrollo y programación de software que deseen reorientar sus competencias y habilidades hacia
-        la gestión de proyectos e ideas de negocio utilizando tecnologías web; además de analistas y
-        desarrolladores de software, analistas de automatización, programadores Front End o Back End. 
-    </p>
-    </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-    <p class="second_class">todas aquellas personas interesadas en el ámbito TIC con conocimientos previos en
-        desarrollo y programación de software que deseen reorientar sus competencias y habilidades hacia
-        la gestión de proyectos e ideas de negocio utilizando tecnologías web; además de analistas y
-        desarrolladores de software, analistas de automatización, programadores Front End o Back End. 
-    </p>
-    </div>
-    <p class="second_class">todas aquellas personas interesadas en el ámbito TIC con conocimientos previos en
-        desarrollo y programación de software que deseen reorientar sus competencias y habilidades hacia
-        la gestión de proyectos e ideas de negocio utilizando tecnologías web; además de analistas y
-        desarrolladores de software, analistas de automatización, programadores Front End o Back End. 
-    </p>
-    </div>
+    </header>
     <br>
-    <h3> Justificación </h2>
-    <p class="third_class"> Los actuales entornos laborales basados en sistemas de información y nuevas
-        tecnologías proponen nuevas oportunidades y desafíos constantes tanto en la forma en la que están
-        desarrollados los aplicativos, cómo en la forma en la que las operaciones del negocio cambian hacia
-        un futuro complejo. Basado en lo anterior, existe gran cantidad de tecnologías requeridas para el
-        desarrollo de aplicaciones, con características demandantes actuales, y esto hace que en el mercado
-        demande la necesidad del perfil de desarrollador Full Stack integral, que tenga la habilidad de
-        dominar a la vez el cliente (Front End) y el servidor / base de datos (Back End).
-        El diplomado entregará a los participantes la capacidad técnica y de gestión en el desarrollo de
-        proyectos con tecnologías web y permitirá disponer de una visión global y actualizada.
-    </p>
-    <br>
-    <h3> Objetivo </h2>
-        <p class="second_class">  al finalizar el diplomado el participante estará en capacidad de gestionar las herramientas
-            para el desarrollo de aplicaciones web, usando las tecnologías de última generación en back-end y
-            front-end; mediante clase magistral, clase guiada, aula invertida, videotutoriales, talleres, trabajo
-            colaborativo y valoración del aprendizaje; demostrando orden, criterio y efectividad en su
-            desempeño.
-        </p>
-        <br>
-    <ul>
-        <li>GIT</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
-    <ol>
-        <li>GIT</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ol>
-    <div style="display: flex ; justify-content: space-around; flex-direction: row-reverse;" >
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #3f719d;">1</div>
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #ec3179;">2</div>
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #3f719d;">3</div>
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #ec3179;">4</div>
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #3f719d;">5</div>
-        <div style="height: 50px; width: 50px; padding:2% ; margin-right:2%; background-color: #ec3179;">6</div>
+    <main>
 
-    </div>
+        <div class="album py-5 bg-dark">
+            <div class="container-fluid"    >
+                <div class="card" style="width: 70 rem;">
+                    <img src="assets/images/git.png" height="100px" width="200px" alt="...">
+                    <div class="card-body">
+                        <div class="container">
+                            <table class="table table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Comando</th>
+                                        <th>Descripcion</th>
+                                        <th>Sintaxis</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Git clone</td>
+                                        <td>Git clone es un comando para descargarte el código fuente existente desde un
+                                            repositorio remoto </td>
+                                        <td>git clone <https: //link-con-nombre-del-repositorio>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git branch</td>
+                                        <td>Podemos usar el comando git branch para crearlas, listarlas y eliminarlas.
+                                        </td>
+                                        <td>listar -> git branch
+                                            crear -> git branch <nombre-de-la-rama>
+                                                eliminar -> git branch -d</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git checkout</td>
+                                        <td>Para trabajar en una rama, primero tienes que cambiarte a ella. Usaremos git
+                                            checkout principalmente para cambiarte de una rama a otra. También lo
+                                            podemos usar para chequear archivos y commits.</td>
+                                        <td>git checkout <nombre-de-la-rama>
+                                                crea la rama y nos ubica en ella -> git checkout -b <nombre-de-la-rama>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git status</td>
+                                        <td>El comando de git status nos da toda la información necesaria sobre la rama
+                                            actual.</td>
+                                        <td>git status</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git add</td>
+                                        <td>Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden
+                                            en local y no se incluirán en el siguiente commit (a menos que cambiemos la
+                                            configuración).</td>
+                                        <td>git add <archivo>
+                                                git add -A
+                                                git add . </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git commit</td>
+                                        <td>Una vez que se llega a cierto punto en el desarrollo, queremos guardar
+                                            nuestros cambios (quizás después de una tarea o asunto específico).
+                                            Importante: Git commit guarda tus cambios únicamente en local.</td>
+                                        <td>git commit -m ""mensaje de confirmación""</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git push</td>
+                                        <td>Después de haber confirmado tus cambios, el siguiente paso que quieres dar
+                                            es enviar tus cambios al servidor remoto. Git push envía tus commits al
+                                            repositorio remoto.</td>
+                                        <td>git push <nombre-remoto>
+                                                <nombre-de-tu-rama>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git pull</td>
+                                        <td>El comando git pull se utiliza para recibir actualizaciones del repositorio
+                                            remoto. Este comando es una combinación del git fetch y del git merge lo
+                                            cual significa que cundo usemos el git pull recogeremos actualizaciones del
+                                            repositorio remoto (git fetch) e inmediatamente aplicamos estos últimos
+                                            cambios en local (git merge).</td>
+                                        <td>git pull <nombre-remoto>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git revert</td>
+                                        <td>A veces, necesitaremos deshacer los cambios que hemos hecho. Hay varias
+                                            maneras para deshacer nuestros cambios en local y/o en remoto (dependiendo
+                                            de lo que necesitemos), pero necesitaremos utilizar cuidadosamente estos
+                                            comandos para evitar borrados no deseados.</td>
+                                        <td>git log -- oneline:
+                                            git revert 3321844</td>
+                                    </tr>
+                                    <tr>
+                                        <td>git init</td>
+                                        <td>Initializes a new Git repository. If you want to place a project under
+                                            revision control, this is the first command you need to learn.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>git remote </td>
+                                        <td>saber el remote del repo </td>
+                                        <td>git remote
+                                            git remote --v </td>
+                                    </tr>
+
+                                </tbody>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+    </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
